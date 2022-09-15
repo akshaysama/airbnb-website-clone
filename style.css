@@ -381,7 +381,7 @@ header{
        .svg-two-cont{
         height:92%;
         padding-top: 6px;
-        padding-left: 7px;
+        padding-right: 5px;
        }
        .header-tab-view{
         display:flex;
@@ -411,6 +411,7 @@ header{
         justify-content: space-between;
         border: 1px solid #dddddd;
         border-radius:30px;
+        position:relative;
 
        }
        .header-tab-view{
@@ -454,6 +455,16 @@ header{
         }
         .svg-one-cont{
             padding-left:11px;
+        }
+        .header-round{
+            padding:5px;
+            border-radius: 100%;
+            background-color:#FF385C;
+            position: absolute;
+            top: 0;
+            right:4px;
+            border: 1px solid white;
+            border-radius: 100px;
         }
    
     
