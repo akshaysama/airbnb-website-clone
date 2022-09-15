@@ -376,7 +376,7 @@ header{
         display:none;
        }
        header{
-        height:105px;
+        height:82px;
        }
        .svg-two-cont{
         height:92%;
@@ -385,6 +385,7 @@ header{
        }
        .header-tab-view{
         display:flex;
+        height: 82px !important;
        }
        .first-part-header{
         display:flex;
@@ -465,6 +466,9 @@ header{
             right:4px;
             border: 1px solid white;
             border-radius: 100px;
+        }
+        .svg-container{
+            width: 53px;
         }
    
     
