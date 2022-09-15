@@ -379,7 +379,9 @@ header{
         height:105px;
        }
        .svg-two-cont{
-        height:10px;
+        height:92%;
+        padding-top: 6px;
+        padding-left: 7px;
        }
        .header-tab-view{
         display:flex;
@@ -397,14 +399,25 @@ header{
        }
        .second-part-header{
         display: flex;
+        justify-content:space-between;
+        width: 239px;
+        align-items: center;
        }
        .header-right-part{
-        display:flex;
+        display:inline-flex;
+        width: 77px;
+        height: 42px;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #dddddd;
+        border-radius:30px;
+
        }
        .header-tab-view{
         padding: 0px 40px;
         height:100px;
         align-items: center;
+        justify-content:space-between;
        }
        .search-bar-header-top > div > span{
             font-size:14px;
@@ -433,8 +446,15 @@ header{
         display:flex;
         align-items: center;
         }
-        .search-bar-header-top{
-            padding: 0px 16px;
+        .anywhere-header-atag{
+            font-size:14px;
         }
+        .section-image-container{
+            padding-top:89px;
+        }
+        .svg-one-cont{
+            padding-left:11px;
+        }
+   
     
 }
