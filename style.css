@@ -452,7 +452,9 @@ header{
             font-size:14px;
         }
         .section-image-container{
-            padding-top:89px;
+            padding-top:137px;
+            padding-left: 40px;
+            padding-right:40px;
         }
         .svg-one-cont{
             padding-left:11px;
@@ -469,6 +471,14 @@ header{
         }
         .svg-container{
             width: 53px;
+        }
+        .image-container-section img{
+            min-height:314px;
+        }
+        .static-container{
+           display:flex;
+           position:absolute;
+           right: 200px;
         }
    
     
