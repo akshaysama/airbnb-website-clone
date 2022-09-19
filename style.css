@@ -691,4 +691,8 @@ padding-bottom:50px;
      .first-part-header{
         width: 59.9%;
      }
+     .for-fixed-container{
+        display:flex;
+        align-items: center;
+     }
 }
